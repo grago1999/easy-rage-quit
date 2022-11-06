@@ -4,4 +4,5 @@ You can easily rage quit your game using this python script. If your HP in the g
 ## How it works
 The script uses computer vision (via tesseract) to detect how much HP you have left from your in-game HUD. This is configured per game (in this case, the defaults are for a 4k monitor). You can find the supported games (or add new ones!) in `EXE_MAP`
 
-For example, `python main.py csgo` will run the script for csgo
+For example, `python main.py csgo` will run the script for csgo on your main display.
+You can also run a test file like `python main.py csgo test` if you add an image to the working directory called `csgo_test.jpg` and compare the printed health value with te image's health value.
